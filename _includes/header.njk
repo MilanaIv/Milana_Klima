@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Vlastní styl -->
+	<link rel="stylesheet" href="/css/style.css">
+
+
+</head>
+
+<body>
+    <!-- Menu navihace-->
+    <header>
+        <div class="top-navigation">
+            <img src="/img/logo/logo.svg" alt="Logo">
+            <div class="active-link"></div>
+            <ul>
+                <li><a href="#" class="active">Pro nas</a></li>
+                <li><a href="#">Klimatizace</a></li>
+                <li><a href="#">Tepelná čerpadla</a></li>
+            </ul>
+            <a href="#">Kontaktujte nás</a>
+        </div>
+    </header>
+
+
+    <!--cam sabloma davase -->
+    <main class="main">
+        {{ content | safe }}
+    </main>
+
+
+    <div class="footer-container">
+        <div class="footer__iner">
+            <div class="footer__colums">
+                <div class="footer-column footer-column--main">
+                    <h3>Kvalita to jsme my. Zařizujeme tepelná čerpadla a klimatizace</h3>
+                    <p>info@vavrac.eu</p>
+                </div>
+
+                <div class="footer-column footer-column--sub">
+                    <div class="footer-column__items">
+                        <a href="#">Pro nas</a>
+                        <a href="#">Tepelná čerpadla</a>
+                        <a href="#">Klimatizace</a>
+                        <a href="#">Kontakt</a>
+                    </div>
+                </div>
+
+                <div class="footer-column footer-column--info">
+                    <div class="footer-column__items">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom__logo">
+                <img src="/img/logo/logo.svg" alt="logo">
+            </div>
+            <p class="footer-bottom__info">Vavrac s.r.o © 2023. All rights reserved.</p>
+            <p class="footer-bottom__info-me">Designed by Milana Ivanova</p>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
