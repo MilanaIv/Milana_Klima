@@ -3,6 +3,7 @@ layout: cta-template.njk
 title: Pro nas
 ---
 
+
 <section class="main">
     <div class="main__background"></div>
     
@@ -33,24 +34,14 @@ title: Pro nas
         <img src="/img/icon/icon_logo.svg" alt="Logo">
     </div>
     <img src="/img/photo/photo_about.svg" alt="">
-   
-    <!-- Blok se značkamy -->
-    <div class="logo">
-        <h3 class="logo__title">Spolupraujeme se značkami</h3>
-        <div class="logo__scoup">
-            <div class="logo__items">
-                <img src="/img/logo/logo_lg.svg" alt="lg icon">
-            </div>
-            <div class="logo__items logo__items--small">
-                <img src="/img/logo/logo_samsung.svg" alt="samsung icon">
-            </div>
-            <div class="logo__items">
-                <img src="/img/logo/logo_ivt.svg" alt="ivt icon">
-            </div>
-        </div>
-    </div>
+
+    {% include "partials/logo.njk" %}
 
 </section>
+
+
+
+
 
 <!-- Blok co Nabizujeme-->
 <section class="ofer">
