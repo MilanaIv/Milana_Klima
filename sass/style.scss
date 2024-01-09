@@ -1,10 +1,7 @@
-html {
-  box-sizing: border-box;
-}
 
-*, ::before, ::after {
-  box-sizing: inherit;
-}
+@use 'base'
+
+
 
 $font-base: 'Montserrat', sans-serif;
 $font-special: 'Lexend Deca', sans-serif;
@@ -23,4 +20,27 @@ h2{
 body{
   font-family: $font-base;
   font-size: 16px;
+}
+
+.main{
+  padding: 50px ;
+
+  &__background {
+    background-color: aqua;
+    height: 15px;
+    width: 15px;
+  }
+
+  @media (min-width: 700px){
+
+  }
+
+  @media (min-width: 900px){
+
+  }
+
+  @media (min-width: 1400px) {
+
+  }
+
 }
