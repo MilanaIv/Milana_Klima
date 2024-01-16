@@ -1,11 +1,17 @@
 
+@use 'base/colors';
+@use 'base/reset';
+@use 'base/typography';
+
 @use 'layout/main';
 
 
 
+ul{
+  list-style: none;
+}
 
-
-
+/*
 
 h2{
   font-family: $font-special;
@@ -37,4 +43,4 @@ body{
 
   }
 
-}
+}*/
