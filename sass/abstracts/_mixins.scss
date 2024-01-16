@@ -6,22 +6,19 @@ $laptop-width:992px;
 $desktop-width:1024px;
 
 @mixin mobile {
-  @media only screen and (min-width: #{mobile-min-width}) and (max-
-  width: #{mobile-max-width}) {
+  @media only screen and (min-width: #{mobile-min-width}) and (max-width: #{mobile-max-width}) {
      @content;
   }
 }
 
 @mixin tablet {
-   @media only screen and (min-width: #{$laptop-width}) and (max-
-   width: #{$desktop-width}) {
+   @media only screen and (min-width: #{$laptop-width}) and (max-width: #{$desktop-width}) {
      @content;
    }
 }
 
 @mixin desktop {
-  @media (min-width: #{$desktop-width}) {
-    @content;
+  @media (min-width: #{$desktop-width}) { @content;
   }
 }
 
