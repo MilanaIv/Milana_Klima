@@ -1,4 +1,8 @@
-@use 'base/color';
+@use 'base/colors';
+@use 'base/reset';
+@use 'base/typography';
+
+@use 'components/header';
 
 
 /*.name {
