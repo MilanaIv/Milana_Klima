@@ -1,0 +1,10 @@
+@use 'base/colors';
+@use 'base/reset';
+@use 'base/typography';
+
+@use 'layout/main';
+
+.navigation__item{
+    color: red;
+
+}
